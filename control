@@ -1,0 +1,9 @@
+Package: com.flame.removeconfidential
+Name: Remove Confidential
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Removes the "Confidential & Proprietary" text from the lockscreen.
+Maintainer: Flame
+Author: Flame
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
