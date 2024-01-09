@@ -4,7 +4,7 @@
 
 - (void)setText:(NSString *)text {
     %log;
-    if ([text isEqualToString:@"Confidential & Proprietary, Call +1 877-595-1125"]) {
+    if ([text containsString:@"Confidential & Proprietary, Call"]) {
         %orig(@"");
     } else {
         %orig(text);
