@@ -5,3 +5,11 @@
 
 ## After
 ![image](https://github.com/flameaway/RemoveConfidential/assets/8405067/0aa91302-1cbd-4ec8-a79f-6353870c6d03)
+
+## Building
+Install [theos](https://theos.dev/docs/installation)
+```console
+git clone https://github.com/flameaway/RemoveConfidential.git
+cd RemoveConfidential
+make package
+```
